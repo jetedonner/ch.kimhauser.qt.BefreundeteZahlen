@@ -8,14 +8,21 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = BefreundeteZahlen
+TARGET = AmicableNumbers
 TEMPLATE = app
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    worker.cpp \
+    conststrings.cpp \
+    dialogabout.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    worker.h \
+    conststrings.h \
+    dialogabout.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    dialogabout.ui
 
 macx:ICON = my_app.icns

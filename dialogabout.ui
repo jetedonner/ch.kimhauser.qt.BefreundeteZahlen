@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogAbout</class>
+ <widget class="QDialog" name="DialogAbout">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>446</width>
+    <height>341</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>About amicable numbers</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'.Helvetica Neue DeskInterface'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial,sans-serif'; font-size:18pt; font-weight:600; color:#212121; background-color:#ffffff;&quot;&gt;amicable numbers&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-weight:600; color:#252525; background-color:#ffffff;&quot;&gt;Amicable numbers&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#252525; background-color:#ffffff;&quot;&gt; are two different &lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Number&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; text-decoration: underline; color:#0b0080; background-color:#ffffff;&quot;&gt;numbers&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#252525; background-color:#ffffff;&quot;&gt; so related that the &lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Addition&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; text-decoration: underline; color:#0b0080; background-color:#ffffff;&quot;&gt;sum&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#252525; background-color:#ffffff;&quot;&gt; of the &lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Proper_divisor&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; text-decoration: underline; color:#0b0080; background-color:#ffffff;&quot;&gt;proper divisors&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#252525; background-color:#ffffff;&quot;&gt; of each is equal to the other number. (A proper divisor of a number is a positive factor of that number other than the number itself. For example, the proper divisors of 6 are 1, 2, and 3.) A pair of amicable numbers constitutes an &lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Aliquot_sequence&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; text-decoration: underline; color:#0b0080; background-color:#ffffff;&quot;&gt;aliquot sequence&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#252525; background-color:#ffffff;&quot;&gt; of &lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Periodic_sequence&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; text-decoration: underline; color:#0b0080; background-color:#ffffff;&quot;&gt;period&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#252525; background-color:#ffffff;&quot;&gt; 2.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'sans-serif'; color:#252525;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#252525; background-color:#ffffff;&quot;&gt;Wiki: &lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Amicable_numbers&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://en.wikipedia.org/wiki/Amicable_numbers&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'sans-serif'; color:#252525;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#252525;&quot;&gt;Created by &lt;/span&gt;&lt;a href=&quot;http://www.kimhauser.ch&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;kimhauser.ch&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; color:#252525;&quot;&gt; (February 2016)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>DialogAbout</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>DialogAbout</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
