@@ -28,3 +28,9 @@ FORMS    += mainwindow.ui \
 macx:ICON = my_app.icns
 
 RC_FILE = myapp.rc
+
+DISTFILES += \
+    my_app.ico
+
+RESOURCES += \
+    AmicableNumbers.qrc
